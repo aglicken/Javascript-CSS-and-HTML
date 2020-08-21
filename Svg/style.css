@@ -1,0 +1,28 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-shadow: 1px 1px 1px #000000;
+  }
+
+body{
+    text-align: center;
+}
+
+#Sun{
+    animation: sunarc 7s ease infinite;
+    transform-origin: center;
+}
+
+@keyframes sunarc {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
