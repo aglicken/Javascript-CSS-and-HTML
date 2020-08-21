@@ -1,0 +1,72 @@
+h1{
+color: palevioletred;
+font-size: large;
+}
+
+.barX {
+    fill: #aaa;
+    height: 21px;
+    transition: fill .3s ease;
+    cursor: pointer;
+  }
+
+  .barY{
+      fill: black;
+      height: 21px;
+      transition: fill .3s ease;
+      cursor: pointer;
+  }
+
+  .barX:hover{
+    fill: lightcoral;
+  }
+
+  .barY:hover{
+    fill: lightblue;
+  }
+  
+  .lineX{
+    fill="none"
+    stroke="lightcoral"
+    stroke-width="5"
+  }
+  .lineY{
+    fill="none"
+    stroke="lightblue"
+    stroke-width="5"
+  }
+
+  .verticalX{
+    fill="none"
+    stroke="lightcoral"
+    stroke-width="5"
+  }
+  .verticalY{
+    fill="none"
+    stroke="lightblue"
+    stroke-width="5"
+  }
+
+  .data {
+    fill: lightcoral;
+  }
+  
+  .data .tooltiptext {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .data:hover,
+  data.tooltiptext {
+    visibility: visible;
+    fill: black;
+  }
+
+  body {
+    text-align: center;
+  }

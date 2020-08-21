@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Works best in a chrome browser.
+    All data has been scaled by a factor of 10.-->
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css"/>
+    <title>CIS 399 Homework 2</title>
+</head>
+<body>
+
+    <figure1>
+        <h1>Bar Chart<h1>
+        <svg class="chart" width="400" height="250" transform="scale(-1, 1)">    
+            <g class="barX">
+            <rect width="100" height="19" y="0"></rect>
+            </g>
+            <g class="barX">
+            <rect width="80" height="19" y="20"></rect>
+            </g>
+            <g class="barX">
+            <rect width="130" height="19" y="40"></rect>
+            </g>
+            <g class="barX">
+            <rect width="90" height="19" y="60"></rect>
+            </g>
+            <g class="barX">
+            <rect width="110" height="19" y="80"></rect>
+            </g>
+            <g class="barX">
+                <rect width="140" height="19" y="100"></rect>
+            </g>
+            <g class="barX">
+                <rect width="60" height="19" y="120"></rect>
+            </g>
+            <g class="barX">
+                <rect width="40" height="19" y="140"></rect>
+            </g>
+            <g class="barX">
+                <rect width="170" height="19" y="160"></rect>
+            </g>
+            <g class="barX">
+                <rect width="70" height="19" y="180"></rect>
+            </g>
+            <g class="barX">
+                <rect width="50" height="19" y="200"></rect>
+            </g>
+      </svg>
+
+      <svg class="chart" width="400" height="250" transform="scale(1, 1)">    
+            <g class="barY">
+            <rect width="80.4" height="19" y="0"></rect>
+            </g>
+            <g class="barY">
+            <rect width="69.50" height="19" y="20"></rect>
+            </g>
+            <g class="barY">
+            <rect width="75.80" height="19" y="40"></rect>
+            </g>
+            <g class="barY">
+            <rect width="88.10" height="19" y="60"></rect>
+            </g>
+            <g class="barY">
+            <rect width="83.30" height="19" y="80"></rect>
+            </g>
+            <g class="barY">
+                <rect width="99.60" height="19" y="100"></rect>
+            </g>
+            <g class="barY">
+                <rect width="72.40" height="19" y="120"></rect>
+            </g>
+            <g class="barY">
+                <rect width="42.60" height="19" y="140"></rect>
+            </g>
+            <g class="barY">
+                <rect width="108.40" height="19" y="160"></rect>
+            </g>
+            <g class="barY">
+                <rect width="48.20" height="19" y="180"></rect>
+            </g>
+            <g class="barY">
+                <rect width="56.80" height="19" y="200"></rect>
+            </g>
+      </svg>
+      </figure1>
+<br>
+
+      <figure2>
+      <h1>Line Chart<h1>    
+      <svg class="lineX" width="250" height="200" transform="scale(1, -1)">
+        <path d="
+        M 20,100
+        L 40,80
+        L 60,130
+        L 80,90
+        L 100,110
+        L 120,140
+        L 140,60
+        L 160,40
+        L 180,170
+        L 200,70
+        L 220, 50"
+        fill="none"
+        stroke="lightcoral"
+        stroke-width="3"
+         />
+      </svg>
+
+    <svg class="lineY" width="250" height="200" transform="scale(1, -1)">
+            <polyline
+                fill="none"
+                stroke="lightblue"
+                stroke-width="3"
+                points="
+                 20,80.4
+                 40,69.5
+                 60,75.8
+                 80,88.1
+                 100,83.3
+                 120,99.6
+                 140,72.4
+                 160,42.6
+                 180,108.4
+                 200,48.2
+                 220, 56.8
+               "
+             />
+      </svg>
+    </figure2>
+<br>
+
+    <figure3>
+        <h1>Area Chart<h1> 
+        <svg class="verticalX" width="250" height="250" transform="rotate(90) scale(-1, 1)">
+            <path d="
+            M 20,00
+            L 20,100
+            L 40,80
+            L 60,130
+            L 80,90
+            L 100,110
+            L 120,140
+            L 140,60
+            L 160,40
+            L 180,170
+            L 200,70
+            L 220, 50
+            L 220, 00
+            Z"
+            fill="lightcoral"
+            stroke="lightcoral"
+            stroke-width="3"
+             />
+        </svg>
+
+      <svg class="verticalY" width="250" height="250" transform="rotate(-90) scale(-1, 1)">
+              <path d="
+                M 30,00
+                L 30,80.4
+                L 50,69.5
+                L 70,75.8
+                L 90,88.1
+                L 110,83.3
+                L 130,99.6
+                L 150,72.4
+                L 170,42.6
+                L 190,108.4
+                L 210,48.2
+                L 230, 56.8
+                L 230,00
+                Z"
+                 fill="lightblue"
+                 stroke="lightblue"
+                 stroke-width="5"
+               />
+        </svg>
+      </figure3>
+    <br>
+
+      <figure4>
+
+        <h1>Scatter Plot<h1> 
+        <svg width="250" height="250" transform="scale(1, -1)" viewBox="0 -20 175 175">
+            <g class="line">
+                <path d="
+                M 20, 40
+                L 160,110
+                "                
+                fill="none"
+                stroke="lightblue"
+                stroke-width="2"
+                />
+            </g>
+            
+
+            <g class="data">
+                <circle cx="100" cy="80.4" r="4">
+                <title> 100,80.4 </title>
+                </circle>
+            </g>
+            <g class="data">
+                <circle cx="80" cy="69.5" r="4">
+                </circle>
+                <title> 80,69.5 </title>
+            </g>
+            <g class="data">
+                <circle cx="130" cy="75.8" r="4">
+                    <title> 130,75.8 </title>
+                </circle>
+            </g>
+            <g class="data">
+                <circle cx="90" cy="88.1" r="4">
+                    <title> 90,88.1 </title>
+                </circle>
+            </g>
+            <g class="data">
+                <circle cx="110.0" cy="83.3" r="4">
+                    <title> 110,83.3 </title>
+                </circle>
+            </g>
+            <g class="data">
+                <circle cx="140" cy="99.6" r="4">
+                    <title> 140,99.6 </title>
+                </circle>
+            </g>
+            <g class="data">
+                <circle cx="60.0" cy="72.4" r="4">
+                    <title> 60,72.4 </title>
+                </circle>
+            </g>
+            <g class="data">
+                <circle cx="40.0" cy="42.6" r="4">
+                    <title> 40,42.6 </title>
+                </circle>
+            </g>
+            <g class="data">
+                <circle cx="120.0" cy="108.4" r="4">
+                    <title> 120,108.4 </title>
+                </circle>
+            </g>
+            <g class="data">
+                <circle cx="70" cy="48.2" r="4">
+                    <title> 70,48.2 </title>
+                </circle>
+            </g>
+            <g class="data">
+                <circle cx="50" cy="56.8" r="4">
+                    <title> 50,56.8 </title>
+                </circle>
+            </g>
+        
+        </svg>
+      </figure4>
+                  
+    
+</body>
+</html>
